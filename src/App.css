@@ -1,0 +1,36 @@
+#todo {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  box-shadow: none;
+}
+
+#todo:focus {
+  border: none;
+}
+
+#head {
+  font-family: cursive;
+  color: darkcyan;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.carddiv {
+  background: rgb(190, 220, 248);
+  color: black;
+}
+
+.carddiv:hover {
+  background: rgb(205, 250, 216);
+  color: black;
+  box-shadow: 3px 5px rgb(116, 114, 114);
+}
+
+button {
+  background: none;
+  border: 1px solid gainsboro;
+}
